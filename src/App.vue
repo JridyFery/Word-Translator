@@ -1,7 +1,8 @@
 <template>
   <div class="text-center" id="app">
     <h1>Word Translator</h1>
-    <h5 class="text-muted">Powered By Vue.js</h5>
+    <h2 class="text-muted">Powered By Vue.js</h2>
+    <p class="mt-5">Add a word in English and choose the language to translate to.</p>
     <hr>
     <TranslateForm v-on:formSubmit="translateText"></TranslateForm>
     <TranslateOutput v-text="translatedText"></TranslateOutput>
