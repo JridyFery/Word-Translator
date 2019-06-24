@@ -1,20 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Trending
-Explore
- 
-@JridyFery 
-12 bradtraversy/wordtranslator
- Code  Issues 0  Pull requests 0  Wiki  Releases
-wordtranslator/src/App.vue
- Brad Traversy first commit
-4bdc764 on Mar 31, 2017
-42 lines (38 sloc)  991 Bytes
-  
 <template>
   <div class="text-center" id="app">
     <h1>Word Translator</h1>
