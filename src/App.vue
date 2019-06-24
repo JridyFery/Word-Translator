@@ -1,24 +1,8 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Trending
-Explore
- 
-@JridyFery 
-12 bradtraversy/wordtranslator
- Code  Issues 0  Pull requests 0  Wiki  Releases
-wordtranslator/src/App.vue
- Brad Traversy first commit
-4bdc764 on Mar 31, 2017
-42 lines (38 sloc)  991 Bytes
-  
 <template>
   <div class="text-center" id="app">
     <h1>Word Translator</h1>
-    <h5 class="text-muted">Powered By Vue.js</h5>
+    <h2 class="text-muted">Powered By Vue.js</h2>
+    <p class="mt-5">Add a word in English and choose the language to translate to.</p>
     <hr>
     <TranslateForm v-on:formSubmit="translateText"></TranslateForm>
     <TranslateOutput v-text="translatedText"></TranslateOutput>
