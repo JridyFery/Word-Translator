@@ -1,20 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Trending
-Explore
- 
-@JridyFery 
-12 bradtraversy/wordtranslator
- Code  Issues 0  Pull requests 0  Wiki  Releases
-wordtranslator/src/components/TranslateForm.vue
- Brad Traversy first commit
-4bdc764 on Mar 31, 2017
-45 lines (42 sloc)  1.04 KB
-  
 <template>
   <div class="row" id="translateForm">
     <div class="col-md-6 col-md-offset-3">
